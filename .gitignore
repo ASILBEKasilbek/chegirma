@@ -1,0 +1,50 @@
+# Python bytecode va cache fayllari
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Django fayllari
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# OS fayllari
+.DS_Store
+Thumbs.db
+
+# PyCharm / VSCode konfiguratsiyalari
+.idea/
+.vscode/
+
+# Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Django secret key yoki env fayllari
+.env
+*.env
+shunchaki/
+logs/

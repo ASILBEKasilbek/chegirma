@@ -137,6 +137,9 @@ AUTH_USER_MODEL = 'user.User'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / "static"
+
 # Django REST Framework
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
